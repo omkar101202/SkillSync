@@ -1,0 +1,92 @@
+/* Custom.module.css */
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #52f052;
+}
+
+.responseWindow {
+  margin-top: 20px;
+}
+
+.keywords {
+  margin-bottom: 20px;
+  background-color: #f9d362;
+  padding: 10px;
+  border-radius: 5px;
+  /* display: flex; */
+}
+
+.title{
+  font-size: 30px;
+
+  text-align: center;
+}
+
+.keywordTable {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 10px;
+  row-gap: 5px;
+}
+
+.keywordCell {
+  padding: 10px;
+  margin: 4px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.recommendations {
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  background-color: #f9d362;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.recommendationList {
+  padding-left: 20px;
+}
+
+.recommendationItem {
+  margin-bottom: 10px;
+}
+
+.updatedSkills{
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  background-color: #f9d362;
+  padding: 10px;
+  border-radius: 5px;
+}
