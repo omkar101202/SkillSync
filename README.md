@@ -15,7 +15,7 @@ Skill Sync is a web application designed to create adaptive resumes that align w
 * **Receive Recommendations**: OpenAI analyzes your input and provides recommendations to improve your resume, ensuring it aligns closely with the job requirements.
 * **Download and Use**: Download your adaptive resume in various formats (e.g., PDF, Word) and use it for your job applications.
 
-  #Technologies Used
+# Technologies Used
 * **Frontend**: React.js, HTML, CSS
 * **Backend**: Node.js, Express.js
 * **AI Integration**: OpenAI API
